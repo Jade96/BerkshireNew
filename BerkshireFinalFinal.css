@@ -1,0 +1,312 @@
+ body, html {
+    height: 100%;
+}
+
+.navbar-brand{
+  width:400px;
+  display: inline-block;
+  margin-right: 0px!important;
+}
+
+#navbar{
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  background-color: #fff;
+  box-shadow: 5px 5px 5px #999; 
+     -moz-box-shadow: 2px 2px 2px #999;
+     -webkit-box-shadow: 2px 2px 2px #999;
+}
+
+.navbar-toggler{
+  z-index: 1;
+}
+
+#logo{
+  height: 10%;
+  width: 90%;
+  min-width: 225px;
+}
+
+#navbarText{
+  justify-content: right;
+}
+
+.navbar-nav{
+  min-width: 400px;
+}
+
+.nav-item{
+  padding-top, padding-bottom: 0px;
+  border-radius: 5px;
+  width: 110px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 20px;
+}
+
+.dropdown{
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top, padding-bottom: 0px;
+}
+
+.dropdown-toggle{
+  color: #545454;
+}
+
+.buttonContent{
+  font-family: times;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+  color: #2e3192;
+  text-decoration: none;
+  position: relative;
+  display: block;
+  padding: 16px 0;
+  line-height: 16px;
+  font-weight: 900;
+  transition: color 0.1s, background-color 0.1s,padding 0.2s ease-in;
+}
+
+.buttonContent:hover{
+  color: #2e3192;
+}
+
+.buttonContent:hover, .buttonContent:focus, .buttonContent:active {
+    text-decoration: none;
+}
+
+.buttonContent {
+    text-decoration: none;
+    transition: color 0.1s, background-color 0.1s;
+}
+
+.buttonContent::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background-color: #2e3192;
+    transform-origin: right top;
+    transform: scale(0, 1);
+    transition: color 0.1s,transform 0.2s ease-out;
+}
+
+.buttonContent:active::before {
+    background-color: #2e3192;
+}
+
+.buttonContent:hover::before, .buttonContent:focus::before {
+    transform-origin: left top;
+    transform: scale(1, 1);
+}
+
+#copyright {
+	font-size: 14px;
+	font-family: times; 
+}
+
+.fadeIn{
+  opacity: 0;
+}
+
+.dropdown-menu{
+  background-color: rgba(237,237,237,0.85);
+}
+
+#mainNav{
+  padding: 11px;
+  border: 0;
+  background-color: rgba(168,168,168,0.85);
+  cursor: pointer;
+}
+
+#bar1, #bar2, #bar3 {
+  width: 20px;
+  height: 3px;
+  background-color: #f2f2f2;
+  margin: 3px 0;
+}
+
+.container-page{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: table;
+  align-items: center;
+}
+
+#home{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#table-cell{
+  height: 400px;
+  width: 100%;
+  padding: 0px;
+  overflow: hidden;
+}
+
+img{
+  width: 100%;
+}
+
+.jumbotron{
+  position: absolute;
+}
+
+#centertext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    text-align: center;
+}
+
+h1{
+  font-family: 'Times New Roman'!important;
+  font-size: 40px!important;
+  font-weight: bold!important;
+  color: #fff!important;
+}
+
+h2{
+  font-family: 'Times New Roman'!important;
+  font-size: 25px!important;
+  font-weight: bold!important;
+  color: #fff!important;
+}
+
+
+img.wp-smiley,
+img.emoji {
+    display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0 .07em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important;
+}
+
+[data-icon]:before {
+    content: none
+}
+
+.ui-dialog {
+    position: fixed;
+    top: 100px;
+}
+
+.recentcomments a {
+    display: inline !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.rm {
+    border: 50px solid transparent;
+    background-color: transparent;
+    border-bottom: none;
+}
+
+.vc_custom_1491206972625 {
+    background-color: #ffffff !important;
+}
+
+.wpb_animate_when_almost_visible {
+    opacity: 1;
+}
+
+#copyright{
+  display: flex;
+  justify-content: center;
+}
+
+.fa-twitter {
+    background: white;
+    color: #55ACEE;
+	padding-top: 20px;
+  padding-bottom: 50px;
+	font-size: 50px;
+	width: 60px;
+	text-align: center;
+}
+
+.fa-facebook{
+	background: white;
+	color:#3B5998;
+	padding-top: 20px;
+  padding-bottom: 50px;
+	font-size: 50px;
+	width: 50px;
+	text-align: center;
+}
+
+.fa-linkedin{
+	background: white;
+	color:#0077B5;
+	padding-top:20px;
+  padding-bottom: 50px;
+	font-size: 50px;
+	width: 50px;
+	text-align: center;
+}
+
+
+.fa-youtube{
+	background: white;
+	color:#cc181e;
+	padding-top: 20px;
+  padding-bottom: 50px;
+	font-size: 50px;
+	width: 50px;
+	text-align: center;
+}
+
+#shareholder{
+  position: relative;
+}
+
+.custom-file-control:lang(en)::before {
+  content: "Browse";
+}
+
+.custom-file-control:lang(en)::after {
+content: "Choose file...";
+}
+
+#confirmation-message {
+display: none;
+}
+
+
+.btn {
+width: 125px;
+}
+
+.custom-file-control:lang(en)::before {
+  content: "Browse";
+}
+
+.custom-file-control:lang(en)::after {
+content: "Choose file...";
+}
+
+#confirmation-message {
+display: none;
+}
+
+
+.btn {
+width: 125px;
+}

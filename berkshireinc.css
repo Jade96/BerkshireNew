@@ -1,0 +1,55 @@
+﻿
+.bg { 
+    /* The image used */
+    background-image: url("img_girl.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	}
+
+#storytext {
+	position: relative;
+	width: 50%;
+	justify-content: center;
+	font-family: times;
+	font-size: 25px;
+	font-weight: bold;
+	top: 140px;
+	margin: auto;
+	color: #2e3192;
+	text-decoration: none;
+}
+
+#storytitle {
+	justify-content: center;
+	border-bottom: 2px solid #2e3192;
+	text-align: center;
+}
+
+#footerabout {
+	position: relative;
+	top: 200px;
+}
+
+#storydescription {
+	text-align: center;
+	font-size: 16px;
+	text-decoration: none;
+	color:#BEBEBE;
+	font-weight: normal;
+}
