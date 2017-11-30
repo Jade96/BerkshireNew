@@ -349,9 +349,10 @@ width: 125px;
 	text-align: center;
 }
 
+
 #footerabout {
 	position: relative;
-	top: 200px;
+	top: 400px;
 }
 
 #storydescription {
@@ -362,16 +363,15 @@ width: 125px;
 	font-weight: normal;
 }
 
+
+=======
 #btn1{
   color:white;
   font-weight: bold;
+  font-family: "Times New Roman", Times , serif;
+  text-align:center;
 }
 
-#btn2{
-  color:white;
-  font-weight: bold;
-  justify-content: center;
-}
 
 #storydescription2 {
 	text-align: center;
@@ -382,10 +382,69 @@ width: 125px;
 	border-bottom: 2px solid #2e3192;
 }
 
+.circle {
+	 border-radius: 50%;
+	 border: 2px solid #D9F0FF;
+	 box-shadow: 0px 0px 5px #999;
+     -moz-box-shadow: 0px 0px 2px #999;
+     -webkit-box-shadow: 0px 0px 12px #999;
+}
+
+#box1 {
+	position: relative;
+	top: 300px;
+	left: 80px;
+	display: inline;
+}
+
+#warren {
+	height: 250px;
+	width: 250px;
+	margin: 20px;
+}
+
+#marc {
+	height: 250px;
+	width: 250px;
+	margin: 20px;
+}
+
+#charlie {
+	height: 250px;
+	width: 250px;
+	margin: 20px;
+}
+
+#oliver { 
+	height: 250px;
+	width: 250px;
+	margin: 20px;
+}
+
 .ig {
 	position:relative;
 	top: 200px;
 }
+
+#storytext2{
+	position: relative;
+	width: 50%;
+	justify-content: center;
+	font-family: times;
+	font-size: 25px;
+	font-weight: bold;
+	top: 350px;
+	margin: auto;
+	text-align: center;
+	font-size: 16px;
+	text-decoration: none;
+	color:#BEBEBE;
+	font-weight: normal;
+	border-bottom: 2px solid #2e3192;
+
+--> End about page CSS <--
+
+=======
 
 /* News Section */
 
@@ -394,6 +453,37 @@ width: 125px;
     width:15vw;
     height:;
     padding: 10px;
+}
+
+--> CSS Contact <--
+
+#contact {
+ font-family: 'Times New Roman';
+  font-size: 25px;
+  text-align: center;
+  width: 100%;
+  align-content: center;
+}
+
+h3 {
+  color: black;
+  text-align: center;
+} 
+
+#contact1 {
+	 font-family: 'Times New Roman';
+	  font-size: 25px;
+	  text-align: center;
+	  width: 100%;
+	  color: #2e3192;
+	  align-content: center;
+	  position: relative;
+	  top: 400px;
+}
+
+
+--> End CSS Contact <--
+=======
 }
 
 --> End about page CSS <--
