@@ -365,12 +365,8 @@ width: 125px;
 #btn1{
   color:white;
   font-weight: bold;
-}
-
-#btn2{
-  color:white;
-  font-weight: bold;
-  justify-content: center;
+  font-family: "Times New Roman", Times , serif;
+  text-align:center;
 }
 
 #storydescription2 {
