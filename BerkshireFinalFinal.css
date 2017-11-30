@@ -313,12 +313,12 @@ width: 125px;
 
 --> About page CSS <--
 
-.bg { 
+.bg {
     /* The image used */
     background-image: url("img_girl.jpg");
 
     /* Full height */
-    height: 100%; 
+    height: 100%;
 
     /* Center and scale the image nicely */
     background-position: center;
@@ -362,6 +362,16 @@ width: 125px;
 	font-weight: normal;
 }
 
+<<<<<<< HEAD
+=======
+#btn1{
+  color:white;
+  font-weight: bold;
+  font-family: "Times New Roman", Times , serif;
+  text-align:center;
+}
+
+>>>>>>> 51ae3049f6624e35d99ddd02706abe1d11982906
 #storydescription2 {
 	text-align: center;
 	font-size: 16px;
@@ -406,6 +416,7 @@ width: 125px;
 .ig {
 	position:relative;
 	top: 200px;
+<<<<<<< HEAD
 =======
 }
 
@@ -445,6 +456,10 @@ width: 125px;
 
 --> End about page CSS <--
 
+=======
+}
+
+>>>>>>> 51ae3049f6624e35d99ddd02706abe1d11982906
 /* News Section */
 
 #socialMedia{
@@ -452,6 +467,7 @@ width: 125px;
     width:15vw;
     height:;
     padding: 10px;
+<<<<<<< HEAD
 >>>>>>> a1dfe179e5033ac30214414c69f042612475ac6e <<<<<< HEAD
 }
 
@@ -482,3 +498,8 @@ h3 {
 }
 
 --> End CSS Contact <--
+=======
+}
+
+--> End about page CSS <--
+>>>>>>> 51ae3049f6624e35d99ddd02706abe1d11982906

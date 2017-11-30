@@ -1,0 +1,8 @@
+#buffettbucket{
+  position: relative;
+  max-height: 100vh;
+  border-color: black;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap:wrap;
+}
