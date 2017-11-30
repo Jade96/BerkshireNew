@@ -313,6 +313,10 @@ display: none;
 width: 125px;
 }
 
+#car{
+  padding-top: 100px;
+}
+
 
 --> About page CSS <--
 
@@ -366,8 +370,6 @@ width: 125px;
 	font-weight: normal;
 }
 
-
-=======
 #btn1{
   color:white;
   font-weight: bold;
@@ -418,7 +420,7 @@ width: 125px;
 	margin: 20px;
 }
 
-#oliver { 
+#oliver {
 	height: 250px;
 	width: 250px;
 	margin: 20px;
@@ -471,7 +473,7 @@ width: 125px;
 h3 {
   color: black;
   text-align: center;
-} 
+}
 
 #contact1 {
 	 font-family: 'Times New Roman';
