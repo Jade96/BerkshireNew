@@ -313,12 +313,12 @@ width: 125px;
 
 --> About page CSS <--
 
-.bg { 
+.bg {
     /* The image used */
     background-image: url("img_girl.jpg");
 
     /* Full height */
-    height: 100%; 
+    height: 100%;
 
     /* Center and scale the image nicely */
     background-position: center;
@@ -362,4 +362,14 @@ width: 125px;
 	font-weight: normal;
 }
 
+#btn1{
+  color:white;
+  font-weight: bold;
+}
+
+#btn2{
+  color:white;
+  font-weight: bold;
+  justify-content: center;
+}
 --> End about page CSS <--
