@@ -13,7 +13,7 @@
   position: fixed;
   z-index: 1;
   background-color: #fff;
-  box-shadow: 5px 5px 5px #999; 
+  box-shadow: 5px 5px 5px #999;
      -moz-box-shadow: 2px 2px 2px #999;
      -webkit-box-shadow: 2px 2px 2px #999;
 }
@@ -108,7 +108,7 @@
 
 #copyright {
 	font-size: 14px;
-	font-family: times; 
+	font-family: times;
 }
 
 .fadeIn{
@@ -135,7 +135,6 @@
 
 .container-page{
   position: relative;
-  height: 100vh;
   width: 100%;
   display: table;
   align-items: center;
