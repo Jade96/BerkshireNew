@@ -9,7 +9,7 @@
 }
 #FirstSection
 {
-    
+
 }
 #navbar{
   width: 100%;
@@ -186,6 +186,28 @@ h2{
   color: #fff!important;
 }
 
+#carousel-description{
+  position: relative;
+  margin-top: 20px;
+  background-color: rgba(237,237,237,0.7);
+  align-content: center;
+  text-align: center;
+}
+
+#description-text{
+  padding: 20px;
+}
+
+#description-header{
+  font-family: 'Times New Roman';
+  font-size: 40px;
+  color: #2e3192;
+  font-weight: bold;
+}
+
+#description{
+  font-family: 'Times New Roman';
+}
 
 img.wp-smiley,
 img.emoji {
@@ -350,7 +372,7 @@ width: 125px;
 	text-decoration: none;
 }
 
-#storytitle {
+#story-title {
 	justify-content: center;
 	border-bottom: 2px solid #2e3192;
 	text-align: center;
