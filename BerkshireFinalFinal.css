@@ -231,9 +231,10 @@ h2{
 }
 
 #description-header{
+  display: flex;
 	justify-content: center;
 	text-align: center;
-	font-size: 30px;
+	font-size: 40px;
 	font-weight: bold;
 	top: 100px;
 	margin: auto;
