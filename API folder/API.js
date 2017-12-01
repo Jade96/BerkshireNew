@@ -1,34 +1,15 @@
-$(() => {
+jQuery(document).ready(function($){
+  $('#getupdate').click(function() {
+        var symbol = $('input[id=symb]').val();
+        var url = 'https://www.quandl.com/api/v3/datasets/WIKI/AAPL.csv'> + symbol + '%22&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys&callback=';
+        $.getJSON(url, function(data) {
+            var items = [];
+            $('#results').html('');
+            $.each(data.query.results.quote, function(key, val) {
+                items.push('<li id="' + key + '">' + val + '</li>');
 
-  $.ajax({
-    url: 'http://api.giphy.com/v1/gifs/search',
-    method: 'GET',
-    contentType: 'application/json; charset=UTF-8',
-    data: {
-      q:'Warren Buffett',
-      limit: 25,
-      api_key: 'dc6zaTOxFJmzC'
-    },
-    success: handleResults
-
+            });
+            $('<ul/>', { 'class': 'my-new-list', html: items.join('')}).appendTo('#results');
+        });
 });
-
-$('#searchbar').change(function(e) {
-    $("#wrapper").empty();
-    search(e.target.value);
 });
-
-function search (query){
-$.ajax({url: "https://api.gettyimages.com/v3/search/images?fields=id,title,thumb,referral_destinations&sort_order=best&phrase="+query,
-},
-success: function(response){
-    var images = response.images;
-  for(var index in images) {
-    var img = document.createElement("img");
-        img.src = images[index].display_sizes[0].uri;
-        var imageObject = $('<div class="box"></div>');
-        imageObject.append(img);
-        $('#wrapper').append(imageObject);
-  }
-}});
-}
