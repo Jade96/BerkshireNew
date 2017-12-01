@@ -199,11 +199,18 @@ h2{
   padding:20px;
   position: relative;
 	width: 60%;
+
+#description-text{
+  padding:20px;
+  position: relative;
+	width: 100%;
+
 	justify-content: center;
 	font-family: times;
 	font-size: 25px;
 	font-weight: bold;
 	margin: auto;
+
 	color: #647187;
 	text-decoration: none;
 }
@@ -225,10 +232,33 @@ h2{
 }
 
 
+
+
+#descriptionheader{
+  font-family: 'Times New Roman';
+  font-size: 30px;
+	font-weight: bold;
+	margin: auto;
+	text-align: center;
+	color: #33338b;
+}
+
+#description1 {
+	text-align: center;
+	font-size: 16px;
+	text-decoration: none;
+	color:#BEBEBE;
+	font-weight: normal;
+	margin: 20px;
+	position: relative;
+}
+
+
 #footerhome {
 	position: relative;
 	top: 140px;
 }
+
 
 #description-header{
   display: flex;
@@ -247,6 +277,11 @@ h2{
 
 #description{
   font-family: 'Times New Roman';
+
+.description-text {
+	position: relative;
+	top: 50px;
+
 }
 
 .description-header{
@@ -256,6 +291,7 @@ h2{
   font-weight: bold;
   display:flex;
   justify-content: center;
+  position: relative;
 }
 
 .card-title{
