@@ -190,24 +190,26 @@ h2{
   position: relative;
   margin-top: 20px;
   background-color: white;
+  display:flex;
   align-content: center;
   text-align: center;
 }
 
 #description-text{
-  padding: 20px;
-	position: relative;
+  padding:20px;
+  position: relative;
 	width: 60%;
 	justify-content: center;
 	font-family: times;
 	font-size: 25px;
 	font-weight: bold;
 	margin: auto;
-  color:white;
+	color: #647187;
 	text-decoration: none;
 }
 
 #description{
+  justify-content: center;
   text-align: center;
 	font-size: 16px;
 	text-decoration: none;
@@ -222,26 +224,6 @@ h2{
   font-weight: bold;
 }
 
-	position: relative;
-	width: 50%;
-	justify-content: center;
-	font-family: times;
-	font-size: 25px;
-	font-weight: bold;
-	top: 100px;
-	margin: auto;
-	color: #2e3192;
-	text-decoration: none;
-}
-
-#description-text{
-	text-align: center;
-	font-size: 16px;
-	text-decoration: none;
-	color:#555791;
-	font-weight: normal;
-	border-bottom: 2px solid #2e3192;
-}
 
 #footerhome {
 	position: relative;
@@ -541,6 +523,9 @@ width: 125px;
 	border-bottom: 2px solid #2e3192;
 	}
 
+.description-text{
+  position: relative;
+}
 
 --> End about page CSS <--
 
