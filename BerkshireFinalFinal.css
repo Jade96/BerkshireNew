@@ -189,24 +189,60 @@ h2{
 #carousel-description{
   position: relative;
   margin-top: 20px;
-  background-color: rgba(237,237,237,0.7);
+  background-color: white;
   align-content: center;
   text-align: center;
 }
 
 #description-text{
   padding: 20px;
+	position: relative;
+	width: 60%;
+	justify-content: center;
+	font-family: times;
+	font-size: 25px;
+	font-weight: bold;
+	margin: auto;
+  color:white;
+	text-decoration: none;
+}
+
+#description{
+  text-align: center;
+	font-size: 16px;
+	text-decoration: none;
+	color:#647187;
+	font-weight: normal;
 }
 
 #description-header{
   font-family: 'Times New Roman';
   font-size: 40px;
-  color: #2e3192;
+  color: #33338b;
   font-weight: bold;
 }
 
 #description{
   font-family: 'Times New Roman';
+}
+
+
+.description-header{
+  font-family: 'Times New Roman';
+  font-size: 40px;
+  color: #33338b;
+  font-weight: bold;
+  display:flex;
+  justify-content: center;
+}
+
+.card-title{
+  color: #33338b;
+  font-family: 'Times New Roman';
+  font-weight: bold;
+  font-size:20px;
+  display:flex;
+  justify-content: center;
 }
 
 img.wp-smiley,
@@ -259,7 +295,7 @@ img.emoji {
 .fa-twitter {
     background: white;
     color: #55ACEE;
-	padding-top: 20px;
+	padding-top: 50px;
   padding-bottom: 50px;
 	font-size: 50px;
 	width: 60px;
@@ -269,7 +305,7 @@ img.emoji {
 .fa-facebook{
 	background: white;
 	color:#3B5998;
-	padding-top: 20px;
+	padding-top: 50px;
   padding-bottom: 50px;
 	font-size: 50px;
 	width: 50px;
@@ -279,7 +315,7 @@ img.emoji {
 .fa-linkedin{
 	background: white;
 	color:#0077B5;
-	padding-top:20px;
+	padding-top:50px;
   padding-bottom: 50px;
 	font-size: 50px;
 	width: 50px;
@@ -290,7 +326,7 @@ img.emoji {
 .fa-youtube{
 	background: white;
 	color:#cc181e;
-	padding-top: 20px;
+	padding-top: 50px;
   padding-bottom: 50px;
 	font-size: 50px;
 	width: 50px;
@@ -338,7 +374,6 @@ width: 125px;
 #car{
   padding-top: 100px;
 }
-
 
 --> About page CSS <--
 
@@ -513,7 +548,3 @@ h3 {
 --> End CSS Contact <--
 =======
 }
-
-
-
-
