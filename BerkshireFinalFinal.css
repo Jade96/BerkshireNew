@@ -222,10 +222,49 @@ h2{
   font-weight: bold;
 }
 
+	position: relative;
+	width: 50%;
+	justify-content: center;
+	font-family: times;
+	font-size: 25px;
+	font-weight: bold;
+	top: 100px;
+	margin: auto;
+	color: #2e3192;
+	text-decoration: none;
+}
+
+#description-text{
+	text-align: center;
+	font-size: 16px;
+	text-decoration: none;
+	color:#555791;
+	font-weight: normal;
+	border-bottom: 2px solid #2e3192;
+}
+
+#footerhome {
+	position: relative;
+	top: 140px;
+}
+
+#description-header{
+	justify-content: center;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	top: 100px;
+	margin: auto;
+	color: #33338b;
+	text-decoration: none;
+	position: relative;
+	top: -40px;
+
+}
+
 #description{
   font-family: 'Times New Roman';
 }
-
 
 .description-header{
   font-family: 'Times New Roman';
@@ -378,13 +417,7 @@ width: 125px;
 --> About page CSS <--
 
 .bg {
-    /* The image used */
-    background-image: url("img_girl.jpg");
-
-    /* Full height */
     height: 100%;
-
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -399,6 +432,7 @@ width: 125px;
 	width: 50%;
 	justify-content: center;
 	font-family: times;
+	text-align: center;
 	font-size: 25px;
 	font-weight: bold;
 	top: 100px;
@@ -450,6 +484,7 @@ width: 125px;
 	 box-shadow: 0px 0px 5px #999;
      -moz-box-shadow: 0px 0px 2px #999;
      -webkit-box-shadow: 0px 0px 12px #999;
+	 justify-content: center;
 }
 
 #box1 {
@@ -457,6 +492,7 @@ width: 125px;
 	top: 300px;
 	left: 80px;
 	display: inline;
+	justify-content: center;
 }
 
 #warren {
@@ -505,6 +541,7 @@ width: 125px;
 	border-bottom: 2px solid #2e3192;
 	}
 
+
 --> End about page CSS <--
 
 =======
@@ -520,29 +557,63 @@ width: 125px;
 
 --> CSS Contact <--
 
-#contact{
- font-family: 'Times New Roman';
-  font-size: 25px;
-  text-align: center;
-  width: 100%;
-  align-content: center;
-  position
-}
-
-h3 {
-  color: black;
-  text-align: center;
-}
 
 #contact1 {
-	 font-family: 'Times New Roman';
-	  font-size: 25px;
-	  text-align: center;
-	  width: 100%;
-	  color: #2e3192;
-	  align-content: center;
-	  position: relative;
-	  top: 400px;
+	position: relative;
+	top: 200px;
+}
+
+#contacttxt {
+	position: relative;
+	top: 150px;
+	text-align: center;
+	font-family: times;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	top: 120px;
+	margin: auto;
+	color: #2e3192;
+	text-decoration: none;
+}
+
+#form1{
+	position: relative;
+	top: 130px;
+}
+
+.jumbotron {
+	position: relative;
+	top: 160px;
+}
+
+.container1 {
+	text-align: Center;
+	font-family: times;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	top: 150px;
+	margin: auto;
+	color: #2e3192;
+	text-decoration: none;
+}
+
+#contact2 {
+	text-align: Center;
+	font-family: times;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	top: 150px;
+	margin: auto;
+	color: #2e3192;
+	text-decoration: none;
+}
+
+#footercontact{
+	position: relative;
+	top: 600px;
 }
 
 --> End CSS Contact <--
