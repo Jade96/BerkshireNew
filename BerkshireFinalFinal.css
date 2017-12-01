@@ -187,92 +187,68 @@ h2{
 }
 
 #carousel-description{
-  position: relative;
-  margin-top: 20px;
+	position: relative;
+	top: 20px;
+  margin-top:20px;
   background-color: white;
-  align-content: center;
-  text-align: center;
+	justify-content: center;
+	align-content: center;
 }
 
 #description-text{
   padding: 20px;
 	position: relative;
-	width: 60%;
+	top: 10px;
 	justify-content: center;
 	font-family: times;
 	font-size: 25px;
 	font-weight: bold;
 	margin: auto;
-  color:white;
+	border-bottom: 2px solid #2e3192;
 	text-decoration: none;
 }
 
-#description{
-  text-align: center;
-	font-size: 16px;
-	text-decoration: none;
-	color:#647187;
-	font-weight: normal;
-}
 
-#description-header{
+#descriptionheader{
   font-family: 'Times New Roman';
-  font-size: 40px;
-  color: #33338b;
-  font-weight: bold;
-}
-
-	position: relative;
-	width: 50%;
-	justify-content: center;
-	font-family: times;
-	font-size: 25px;
+  font-size: 30px;
 	font-weight: bold;
-	top: 100px;
 	margin: auto;
-	color: #2e3192;
-	text-decoration: none;
+	text-align: center;
+	color: #33338b;
 }
 
-#description-text{
+#description1 {
 	text-align: center;
 	font-size: 16px;
 	text-decoration: none;
-	color:#555791;
+	color:#BEBEBE;
 	font-weight: normal;
-	border-bottom: 2px solid #2e3192;
+	margin: 20px;
 }
 
 #footerhome {
 	position: relative;
-	top: 140px;
+	top: 80px;
 }
 
-#description-header{
-	justify-content: center;
-	text-align: center;
-	font-size: 30px;
-	font-weight: bold;
-	top: 100px;
-	margin: auto;
-	color: #33338b;
-	text-decoration: none;
+.description-text {
 	position: relative;
-	top: -40px;
-
-}
-
-#description{
-  font-family: 'Times New Roman';
+	top: 60px;
 }
 
 .description-header{
   font-family: 'Times New Roman';
-  font-size: 40px;
+  font-size: 30px;
   color: #33338b;
   font-weight: bold;
   display:flex;
   justify-content: center;
+}
+
+#top3 {
+	position: relative;
+	top: 70px;
 }
 
 .card-title{
