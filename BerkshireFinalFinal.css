@@ -191,6 +191,7 @@ h2{
 	top: 20px;
   margin-top:20px;
   background-color: white;
+<<<<<<< HEAD
 	justify-content: center;
 	align-content: center;
 }
@@ -199,18 +200,45 @@ h2{
   padding: 20px;
 	position: relative;
 	top: 10px;
+=======
+  display:flex;
+  align-content: center;
+  text-align: center;
+}
+
+#description-text{
+  padding:20px;
+  position: relative;
+	width: 60%;
+>>>>>>> 048fdb68284ad2276b64c2288160011c7ec103f3
 	justify-content: center;
 	font-family: times;
 	font-size: 25px;
 	font-weight: bold;
 	margin: auto;
+<<<<<<< HEAD
 	border-bottom: 2px solid #2e3192;
 	text-decoration: none;
 }
 
+=======
+	color: #647187;
+	text-decoration: none;
+}
+
+#description{
+  justify-content: center;
+  text-align: center;
+	font-size: 16px;
+	text-decoration: none;
+	color:#647187;
+	font-weight: normal;
+}
+>>>>>>> 048fdb68284ad2276b64c2288160011c7ec103f3
 
 #descriptionheader{
   font-family: 'Times New Roman';
+<<<<<<< HEAD
   font-size: 30px;
 	font-weight: bold;
 	margin: auto;
@@ -226,13 +254,33 @@ h2{
 	font-weight: normal;
 	margin: 20px;
 }
+=======
+  font-size: 40px;
+  color: #33338b;
+  font-weight: bold;
+}
+
+>>>>>>> 048fdb68284ad2276b64c2288160011c7ec103f3
 
 #footerhome {
 	position: relative;
 	top: 80px;
 }
 
+<<<<<<< HEAD
 .description-text {
+=======
+#description-header{
+  display: flex;
+	justify-content: center;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	top: 100px;
+	margin: auto;
+	color: #33338b;
+	text-decoration: none;
+>>>>>>> 048fdb68284ad2276b64c2288160011c7ec103f3
 	position: relative;
 	top: 60px;
 }
@@ -390,6 +438,22 @@ width: 125px;
   padding-top: 100px;
 }
 
+.coming{
+  position:relative;
+  font-family: 'Times New Roman';
+  font-size: 40px;
+  color: #33338b;
+  font-weight: bold;
+  display:flex;
+  justify-content: center;
+  Padding-top:100px;
+}
+
+#comingsoon{
+  display:relative;
+  padding-top:100px;
+}
+
 --> About page CSS <--
 
 .bg {
@@ -517,6 +581,9 @@ width: 125px;
 	border-bottom: 2px solid #2e3192;
 	}
 
+.description-text{
+  position: relative;
+}
 
 --> End about page CSS <--
 
