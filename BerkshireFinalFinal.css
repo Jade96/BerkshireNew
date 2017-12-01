@@ -187,20 +187,9 @@ h2{
 }
 
 #carousel-description{
-	position: relative;
-	top: 20px;
-  margin-top:20px;
+  position: relative;
+  margin-top: 20px;
   background-color: white;
-<<<<<<< HEAD
-	justify-content: center;
-	align-content: center;
-}
-
-#description-text{
-  padding: 20px;
-	position: relative;
-	top: 10px;
-=======
   display:flex;
   align-content: center;
   text-align: center;
@@ -210,18 +199,11 @@ h2{
   padding:20px;
   position: relative;
 	width: 60%;
->>>>>>> 048fdb68284ad2276b64c2288160011c7ec103f3
 	justify-content: center;
 	font-family: times;
 	font-size: 25px;
 	font-weight: bold;
 	margin: auto;
-<<<<<<< HEAD
-	border-bottom: 2px solid #2e3192;
-	text-decoration: none;
-}
-
-=======
 	color: #647187;
 	text-decoration: none;
 }
@@ -234,42 +216,20 @@ h2{
 	color:#647187;
 	font-weight: normal;
 }
->>>>>>> 048fdb68284ad2276b64c2288160011c7ec103f3
 
-#descriptionheader{
+#description-header{
   font-family: 'Times New Roman';
-<<<<<<< HEAD
-  font-size: 30px;
-	font-weight: bold;
-	margin: auto;
-	text-align: center;
-	color: #33338b;
-}
-
-#description1 {
-	text-align: center;
-	font-size: 16px;
-	text-decoration: none;
-	color:#BEBEBE;
-	font-weight: normal;
-	margin: 20px;
-}
-=======
   font-size: 40px;
   color: #33338b;
   font-weight: bold;
 }
 
->>>>>>> 048fdb68284ad2276b64c2288160011c7ec103f3
 
 #footerhome {
 	position: relative;
-	top: 80px;
+	top: 140px;
 }
 
-<<<<<<< HEAD
-.description-text {
-=======
 #description-header{
   display: flex;
 	justify-content: center;
@@ -282,21 +242,21 @@ h2{
 	text-decoration: none;
 >>>>>>> 048fdb68284ad2276b64c2288160011c7ec103f3
 	position: relative;
-	top: 60px;
+	top: -40px;
+
+}
+
+#description{
+  font-family: 'Times New Roman';
 }
 
 .description-header{
   font-family: 'Times New Roman';
-  font-size: 30px;
+  font-size: 40px;
   color: #33338b;
   font-weight: bold;
   display:flex;
   justify-content: center;
-}
-
-#top3 {
-	position: relative;
-	top: 70px;
 }
 
 .card-title{
@@ -451,7 +411,6 @@ width: 125px;
 
 #comingsoon{
   display:relative;
-  padding-top:100px;
 }
 
 --> About page CSS <--
