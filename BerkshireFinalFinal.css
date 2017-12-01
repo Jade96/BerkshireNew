@@ -525,7 +525,7 @@ width: 125px;
 	text-align: center;
 	font-size: 30px;
 	font-weight: bold;
-	top: 150px;
+	top: 120px;
 	margin: auto;
 	color: #2e3192;
 	text-decoration: none;
@@ -533,12 +533,12 @@ width: 125px;
 
 #form1{
 	position: relative;
-	top: 180px;
+	top: 130px;
 }
 
 .jumbotron {
 	position: relative;
-	top: 200px;
+	top: 160px;
 }
 
 .container1 {
@@ -567,7 +567,7 @@ width: 125px;
 
 #footercontact{
 	position: relative;
-	top: 200px;
+	top: 600px;
 }
 
 --> End CSS Contact <--
