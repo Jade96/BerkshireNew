@@ -224,9 +224,9 @@ h2{
 }
 
 .description-text {
-} 
-
-
+	position: relative;
+	top: 50px;
+}
 
 .description-header{
   font-family: 'Times New Roman';
@@ -235,6 +235,7 @@ h2{
   font-weight: bold;
   display:flex;
   justify-content: center;
+  position: relative;
 }
 
 #top3 {
