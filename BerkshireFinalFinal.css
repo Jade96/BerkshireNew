@@ -397,6 +397,22 @@ width: 125px;
   padding-top: 100px;
 }
 
+.coming{
+  position:relative;
+  font-family: 'Times New Roman';
+  font-size: 40px;
+  color: #33338b;
+  font-weight: bold;
+  display:flex;
+  justify-content: center;
+  Padding-top:100px;
+}
+
+#comingsoon{
+  display:relative;
+  padding-top:100px;
+}
+
 --> About page CSS <--
 
 .bg {
